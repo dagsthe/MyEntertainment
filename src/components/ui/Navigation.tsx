@@ -21,7 +21,7 @@ export default function DropdownMenuCheckboxes() {
       <DropdownMenuContent className="w-56">
         <DropdownMenuSeparator />
 
-        <Link to={"/"}>
+        <Link to={"/MyEntertainment"}>
           <DropdownMenuCheckboxItem
             checked={location == "/"}
           >
