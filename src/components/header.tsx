@@ -9,7 +9,7 @@ export default function(){
     let navigate = useNavigate()
 
     const clickManager = (id:string, e:React.MouseEvent<HTMLAnchorElement>) => {
-        if (location.pathname === "/") {
+        if (location.pathname === "/MyEntertainment") {
             e.preventDefault(); // prevent navigation
 
             const section = document.getElementById(id)
@@ -20,7 +20,7 @@ export default function(){
 
         } else {
             e.preventDefault(); // prevent Link's default navigation
-            navigate("/");     // navigate manually
+            navigate("/MyEntertainment");     // navigate manually
             
             setTimeout(() => {
                 const section = document.getElementById(id)
