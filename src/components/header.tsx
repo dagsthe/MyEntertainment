@@ -1,5 +1,4 @@
 import {ModeToggle} from "./mode-toggle"
-import Logo from "../assets/logo.png"
 import Navigation from "./ui/Navigation"
 import CompanyTitle from "./ui/CompanyTitle"
 import { Link, useLocation, useNavigate } from "react-router-dom";

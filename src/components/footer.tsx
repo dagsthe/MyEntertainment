@@ -1,4 +1,3 @@
-import {ModeToggle} from "./mode-toggle"
 import CompanyTitle from "./ui/CompanyTitle"
 import { Link } from "react-router-dom";
 

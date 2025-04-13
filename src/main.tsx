@@ -8,7 +8,7 @@ import Experiences from './Experiences.tsx'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 const router = createBrowserRouter([
-  {path:"/", element:<App/>},
+  {path:"/MyEntertainment", element:<App/>},
   {path:"/contact", element:<Contact/>},
   {path:"/experiences", element:<Experiences/>},
 ])
