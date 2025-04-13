@@ -64,7 +64,7 @@ export default function(props:Props){
                 
 
                 <div className="z-10 absolute top-0 left-6 text-2xl font-semibold truncate flex flex-col text-left text-white text-shadow">
-                    <h2 className="">{props.Gamename}</h2>
+                    <h2 className="">{GameName}</h2>
 
                     <div>
                         <i className="fa fa-play"></i>
