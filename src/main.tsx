@@ -13,10 +13,7 @@ const router = createBrowserRouter([
   {path:"/contact", element:<Contact/>},
   {path:"/experiences", element:<Experiences/>},
   {path:"/team", element:<OurTeam/>},
-],
-{
-  basename:"/MyEntertainment"
-})
+],)
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
