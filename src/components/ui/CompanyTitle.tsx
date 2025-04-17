@@ -14,14 +14,14 @@ export default function(props:Props){
     let location = useLocation()
     let navigate = useNavigate()
     const handleClick = (e:React.MouseEvent<HTMLAnchorElement>) => {
-        if (location.pathname === "/MyEntertainment") {
+        if (location.pathname === "/") {
             console.log("Scroll!")
             e.preventDefault(); // prevent navigation
             window.scrollTo({ top: 0, behavior: "smooth" });
 
         } else {
             e.preventDefault(); // prevent Link's default navigation
-            navigate("/MyEntertainment");     // navigate manually
+            navigate("/");     // navigate manually
         }
         // otherwise, let Link handle the navigation normally
     };

@@ -8,12 +8,16 @@ export default function(){
     <div className="flex flex-col md:flex-row justify-center items-center gap-[50%] w-full">
         <CompanyTitle className="text-primary brightness-90"/>
         <div className="flex text-primary brightness-90 items-center gap-7">
-            <Link to={"/MyEntertainment"}>
+            <Link to={"/"}>
                 <p>Home</p>
             </Link>
             
             <Link to={"/contact"}>
                 <p>Contact</p>
+            </Link>
+
+            <Link to={"/team"}>
+                <p>Our Team</p>
             </Link>
         </div>
     </div>

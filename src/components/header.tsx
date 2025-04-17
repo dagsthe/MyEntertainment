@@ -9,7 +9,7 @@ export default function(){
     let navigate = useNavigate()
 
     const clickManager = (id:string, e:React.MouseEvent<HTMLAnchorElement>) => {
-        if (location.pathname === "/MyEntertainment") {
+        if (location.pathname === "/") {
             e.preventDefault(); // prevent navigation
 
             const section = document.getElementById(id)
@@ -20,7 +20,7 @@ export default function(){
 
         } else {
             e.preventDefault(); // prevent Link's default navigation
-            navigate("/MyEntertainment");     // navigate manually
+            navigate("/");     // navigate manually
             
             setTimeout(() => {
                 const section = document.getElementById(id)
@@ -42,8 +42,8 @@ export default function(){
         </CompanyTitle>
 
         <div className="md:flex text-primary brightness-90 items-center gap-3 lg:gap-5 xl:gap-4 font-semibold text-lg hidden md:block">
-            <Link to="/MyEntertainment" onClick={(e)=>clickManager("",e)}> <p>Home</p> </Link>
-            <Link to="/MyEntertainment" onClick={(e)=>clickManager("aboutus",e)}> <p>About Us</p> </Link>
+            <Link to="/" onClick={(e)=>clickManager("",e)}> <p>Home</p> </Link>
+            <Link to="/" onClick={(e)=>clickManager("aboutus",e)}> <p>About Us</p> </Link>
             <Link to="/team"> <p>Our Team</p> </Link>
             <Link to="/experiences"> <p>Experiences</p> </Link>
             <Link to="/contact"> <p>Contact us</p> </Link>

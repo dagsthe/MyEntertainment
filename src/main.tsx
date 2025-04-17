@@ -9,11 +9,14 @@ import OurTeam from "./OurTeam.tsx"
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 const router = createBrowserRouter([
-  {path:"/MyEntertainment", element:<App/>},
+  {path:"/", element:<App/>},
   {path:"/contact", element:<Contact/>},
   {path:"/experiences", element:<Experiences/>},
   {path:"/team", element:<OurTeam/>},
-])
+],
+{
+  basename:"/MyEntertainment"
+})
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
