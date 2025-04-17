@@ -53,7 +53,7 @@ function App() {
 
         
         <div className='absolute bottom-3'>
-            <Marquee className='h-10 md:h-20 [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] overflow-hidden' autoFill={true}>
+            <Marquee className='h-20 [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] overflow-hidden' autoFill={true}>
               <Imagebrand src='https://cdn.medal.tv/assets/img/new-medal-logo-small.png'></Imagebrand>
               <Imagebrand className='dark:invert' src='https://upload.wikimedia.org/wikipedia/commons/4/4b/Roblox_Logo_2022.svg'></Imagebrand>
               <Imagebrand className='' src='https://upload.wikimedia.org/wikipedia/en/b/b4/Gamefam_Logo.png'></Imagebrand>
