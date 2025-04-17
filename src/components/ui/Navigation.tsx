@@ -37,6 +37,14 @@ export default function DropdownMenuCheckboxes() {
           </DropdownMenuCheckboxItem>
         </Link>
 
+        <Link to={"/team"}>
+          <DropdownMenuCheckboxItem
+            checked={location == "/team"}
+          >
+            Our Team
+          </DropdownMenuCheckboxItem>
+        </Link>
+
         <Link to={"/contact"}>
           <DropdownMenuCheckboxItem
             checked={location == "/contact"}

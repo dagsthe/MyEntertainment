@@ -26,5 +26,19 @@ export const gameIds = [
       Name: "Slime Mergers",
       Image: "https://tr.rbxcdn.com/180DAY-93cf8b766fcaf5eb971ed19c8637baa2/768/432/Image/Webp/noFilter",
       AltVisitCount: "1400000"
-    }
+    },
+    {
+      experienceId: 5987929040,
+      PlaceId: 17494686351,
+      Name: "Noob Tower Defense",
+      Image: "https://tr.rbxcdn.com/180DAY-d0f5ec721b41f347e94a52c8712bf092/768/432/Image/Webp/noFilter",
+      AltVisitCount: "11300000"
+    },
+    {
+      experienceId: 6981547940,
+      PlaceId: 95991056482359,
+      Name: "Dance or Die",
+      Image: "https://tr.rbxcdn.com/180DAY-b2bac62082144b3c28cb115723599f4e/768/432/Image/Webp/noFilter",
+      AltVisitCount: "6500000"
+    },
   ];

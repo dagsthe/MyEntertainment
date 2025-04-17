@@ -1,11 +1,16 @@
 interface Props{
-    src:string
+    src:string,
+    className?:string,
 }
 
 export default function(props:Props){
+    let className = props.className
+    if(className == undefined)
+        className = ""
+
     return (
         <>
-            <img className="dark:invert h-20 aspect-square m-10" src={props.src}>
+            <img className={"h-20 m-10 "+className} src={props.src}>
             
             </img>
         </>

@@ -40,19 +40,19 @@ export default function(){
                         <p className='brightness-80 font-bold text-xl'>✉ hello@example.com</p>
                     </div>
                     
-                    <div className="w-[90%] mt-10 lg:mt-0 lg:w-[45%] flex flex-col gap-5 animate__animated animate__fadeIn">
+                    <form action="https://formsubmit.co/Andrew@levelupgames.fun" method='POST' className="w-[90%] mt-10 lg:mt-0 lg:w-[45%] flex flex-col gap-5 animate__animated animate__fadeIn">
                         <div className="flex gap-5">
-                            <Input type="text" placeholder="First Name"></Input>
-                            <Input type="text" placeholder="Last Name"></Input>
+                            <Input type="text" name='first_name' placeholder="First Name"></Input>
+                            <Input type="text" name='last_name' placeholder="Last Name"></Input>
                         </div>
-                        <Input type="email" placeholder="Email"></Input>
-                        <Input type="number" placeholder="Phone #"></Input>
+                        <Input type="email" name='email' placeholder="Email"></Input>
+                        <Input type="number" name='phone' placeholder="Phone #"></Input>
                         <div className="grid w-full gap-1.5 relative">
                             <p className='brightness-70 font-semibold'>Your message</p>
-                            <Textarea placeholder="Type your message here." id="message" />
-                            <Button className='w-[35%] absolute right-0 -bottom-5 translate-y-full'>Send message</Button>
+                            <Textarea name='message' placeholder="Type your message here." id="message" />
+                            <Button type='submit' className='w-[35%] absolute right-0 -bottom-5 translate-y-full'>Send message</Button>
                         </div>
-                    </div>
+                    </form>
                 </section>
                 
                 <div className='mt-52 lg:mt-96'></div>

@@ -40,13 +40,13 @@ function App() {
 
           <div className='flex flex-row justify-center gap-4 md:gap-16 pt-4 text-center font-bold text-xl md:text-3xl'>
             <div>
-              <h2>11,624</h2>
+              <h2>3,000+</h2>
               <h3>Active Players</h3>
             </div>
 
             <div>
-              <h2>2.5B+</h2>
-              <h3>Play Sessions</h3>
+              <h2>60M+</h2>
+              <h3>Lifetime Visits</h3>
             </div>
           </div>
         </Fade>
@@ -54,9 +54,9 @@ function App() {
         
         <div className='absolute bottom-3'>
             <Marquee className='h-10 md:h-20 [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] overflow-hidden' autoFill={true}>
-              <Imagebrand src='https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg'></Imagebrand>
-              <Imagebrand src='https://upload.wikimedia.org/wikipedia/commons/4/4b/Roblox_Logo_2022.svg'></Imagebrand>
-              <Imagebrand src='https://upload.wikimedia.org/wikipedia/commons/2/2e/Gucci_Logo.svg'></Imagebrand>
+              <Imagebrand src='https://cdn.medal.tv/assets/img/new-medal-logo-small.png'></Imagebrand>
+              <Imagebrand className='dark:invert' src='https://upload.wikimedia.org/wikipedia/commons/4/4b/Roblox_Logo_2022.svg'></Imagebrand>
+              <Imagebrand className='' src='https://upload.wikimedia.org/wikipedia/en/b/b4/Gamefam_Logo.png'></Imagebrand>
             </Marquee>
         </div>
       </section>
@@ -66,17 +66,17 @@ function App() {
             <section id='aboutus' className='flex flex-col md:flex-row h-auto w-[90%] lg:items-center justify-center mx-auto pt-20 gap-[10%]'>
               <div className='w-full text-center md:text-left md:w-[40%]'>
                 <h1 className='text-4xl font-bold mb-10'>We deliver unparalleled growth, engagement, and success.</h1>
-                <p>Within just the last few years, MyEntertainment has expanded exponentially with zero capital funding. With over ~90 games, 2.5B visits, and consistent 40k+ concurrent users daily, Inter has quickly risen to the top #50 developers on the Roblox platform with no plans of stopping anytime soon.</p>
+                <p>Within just the last few years, LevelUp Games has expanded exponentially with zero capital funding. With over 60M visits, and consistent 3000+ concurrent users daily, We have quickly risen to the top 20% developers on the Roblox platform with no plans of stopping anytime soon.</p>
                 <div className='flex flex-row gap-5 mt-5 h-12 justify-center md:justify-normal'>
                   <Link to={"/contact"}><Button className='cursor-pointer bg-blue-600 hover:bg-blue-800 text-white rounded-2xl h-[80%] w-40'>Let's Talk! &gt;</Button> </Link>
                 </div>
               </div>
 
               <div className='w-full md:w-[40%] gap-5 grid grid-cols-1 lg:grid-cols-2 grid-rows-2 mb-10 mt-10 md:mt-0'>
-                <Card Heading='~90' Text="We've acquired 89 games and we are actively looking for more. Be part of inter today."></Card>
-                <Card Heading='2.5B+' Text="With over 2.5B visits across our entire portfolio, we know exactly how to expand any game."></Card>
-                <Card Heading='~12,000' Text="Our acquired games have reached a total of 11,624 concurrent players. Join us today."></Card>
-                <Card Heading='~7M+' Text="Our community boasts 7M active members, a true testament to our incredible growth."></Card>
+                <Card Heading='200K+' Text="With over 200,000 members in our community we know what brings players together"></Card>
+                <Card Heading='60M+' Text="With over 60M+ visits across our entire portfolio, we know exactly how to expand any game."></Card>
+                <Card Heading='3000+' Text="Our acquired games have reached a total of 3000 concurrent players. Join us today."></Card>
+                <Card Heading='20M+' Text="We've achieved 20M+ unique play sessions offering unique experiences for many different players"></Card>
               </div>
             </section>
 

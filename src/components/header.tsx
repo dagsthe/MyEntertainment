@@ -41,9 +41,10 @@ export default function(){
             </div>
         </CompanyTitle>
 
-        <div className="md:flex text-primary brightness-90 items-center gap-5 xl:gap-7 font-semibold text-lg hidden md:block">
+        <div className="md:flex text-primary brightness-90 items-center gap-3 lg:gap-5 xl:gap-4 font-semibold text-lg hidden md:block">
             <Link to="/MyEntertainment" onClick={(e)=>clickManager("",e)}> <p>Home</p> </Link>
             <Link to="/MyEntertainment" onClick={(e)=>clickManager("aboutus",e)}> <p>About Us</p> </Link>
+            <Link to="/team"> <p>Our Team</p> </Link>
             <Link to="/experiences"> <p>Experiences</p> </Link>
             <Link to="/contact"> <p>Contact us</p> </Link>
             <ModeToggle></ModeToggle>
