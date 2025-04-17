@@ -2,8 +2,6 @@ import './App.css'
 import { ThemeProvider } from "./components/theme-provider"
 
 import Header from "./components/header"
-import {gameIds} from "./gameIds"
-import Gamecard from './components/ui/Gamecard'
 import { Fade } from "react-awesome-reveal";
 import 'animate.css';
 
