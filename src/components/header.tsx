@@ -34,7 +34,7 @@ export default function(){
     return (
     <>
 
-    <div className="z-10 h-10 bg-purple-800/40  flex flex-row justify-center gap-[5%] xl:gap-[50%] top-0 fixed w-full backdrop-blur-md">
+    <div className="z-10 h-10 bg-purple-800/40  flex flex-row justify-center md:justify-between px-5 top-0 fixed w-full backdrop-blur-md">
         <CompanyTitle>
             <div className="ml-5 md:hidden">
                 <Navigation/>
